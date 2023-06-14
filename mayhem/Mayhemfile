@@ -1,4 +1,7 @@
 project: PROJECT
 target: fuzz_parseini
+
+image: ghcr.io/<amonajjemi/fuzz_parseini:latest
+
 cmds:
 - cmd: /out/fuzz_parseini
